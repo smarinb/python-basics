@@ -75,3 +75,20 @@ print(my_list)
 
 
 
+my_new_list = my_list.copy()
+my_list.clear()
+print(my_new_list)
+print(my_list)
+
+my_new_list.reverse()
+print(my_new_list)
+
+
+my_number_list = [45, 34, 23, 1, 45,7]
+print(my_number_list)
+
+my_number_list.sort()
+print(my_number_list)
+
+print(my_number_list[1:3])
+
