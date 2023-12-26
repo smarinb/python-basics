@@ -38,6 +38,7 @@ print("Nombre" in my_other_dict)
 print(my_other_dict.items())
 
 print(my_other_dict.keys())
+print(f"Mis valores {list(my_other_dict.values())}")
 print(my_other_dict.values())
 my_new_dict = dict.fromkeys("Nombre","Apellido")
 print(my_new_dict)
@@ -47,6 +48,7 @@ print(type(my_other_dict.values()))
 
 my_list = ["Nombre", 1, "Piso"]
 
-my_new_dict = dict.fromkeys(my_list)
+my_new_dict = dict.fromkeys(my_other_dict,"Cambia el valor") #Crea un diccionario nuevo con las claves de otro pero sin valores
 print(my_new_dict)
 
+print(list(my_new_dict)) #dict to list only we keep the keys not values
