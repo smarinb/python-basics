@@ -20,7 +20,7 @@ class Person:
     def get_name(self): #Getter
         return self.__name
     
-    def set_name(self,name):
+    def set_name(self,name): #Setter
         self.__name = name
 
 my_person = Person("Sergio","Marín","Ciervo") #Crear un objeto de tipo Person

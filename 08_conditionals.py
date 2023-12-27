@@ -18,5 +18,5 @@ else:
 
 
 my_string = "Sergio"
-if not my_string:
+if my_string:
     print("Mi cadena de texto no es vacia")
